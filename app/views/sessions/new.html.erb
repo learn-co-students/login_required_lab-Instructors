@@ -1,0 +1,11 @@
+<h1>Please login</h1>
+
+<%= form_tag '/sessions/create' do%>
+  <label>Name</label>
+  <%= text_field_tag 'name' %>
+  <%= submit_tag "Login"%>
+<% end %>
+
+<!-- <form class="" action="/sessions/create" method="post">
+  <input type="text" name="name" value="">
+</form> -->
